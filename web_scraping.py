@@ -15,8 +15,8 @@ def send_mail():
     #server.starttls()
     server.ehlo()
     server.login('nikagobeja2@gmail.com', 'xxxxxx')
-    subject = "The Shirt you want is below $15! Now is your chance to buy!"
-    body ="Alex, This is the moment we have been waiting for. Now is your chance to pick up the shirt of your dreams. Don't mess"
+    subject = "The Shirt you want is below rating 4.4! Now is your chance to buy!"
+    body ="This is the moment we have been waiting for. Now is your chance to pick up the shirt of your dreams. Don't mess"
     msg =f"Subject: {subject}\n\n{body}"
     server.sendmail(
     'nikagobeja2@gmail.com',
